@@ -14,4 +14,4 @@ docker pull zamboharris/ces
 docker run \
 --mount type=bind,source="$(pwd)"/results,target=/ces/results \
 --mount type=bind,source="$1",target=/ces/src \
-ces_image
+zamboharris/ces
